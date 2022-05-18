@@ -1,7 +1,5 @@
 const path =require('path')
 const express = require('express')
-const chalk =require('chalk')
-const { hasSubscribers } = require('diagnostics_channel')
 var hbs = require('hbs')
 const app = express()
 const port = process.env.PORT || 3000
