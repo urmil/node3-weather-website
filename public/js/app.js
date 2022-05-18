@@ -19,9 +19,9 @@ const messageTwo =document.querySelector('#message-2')
 
        e.preventDefault()
        const location = search.value
-   console.log(location)
+   //console.log(location)
    messageOne.textContent = 'Loading.....'
-   messageTwo.textContent = ''
+   messageTwo.textContent = ' '
 
    fetch('/weather?address='+location).then((response)=>{
    
