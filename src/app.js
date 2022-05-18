@@ -33,13 +33,13 @@ app.get('', (req, res)=> {
 
 app.get('/about',(req,res)=>{
      res.render('about',{
-    title: 'About Me',
+    title: 'About',
     name: 'Urmil Swaroop Pandey'
 })
 })
 app.get('/help',(req,res)=>{
     res.render('help',{
-   title: 'May I Help You!!',
+   title: 'Help',
    name: 'Urmil Swaroop Pandey',
    
 })
