@@ -1,3 +1,10 @@
+/* sets base style for each page */
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
 body{
 
    color:#333333;
@@ -5,7 +12,11 @@ body{
    max-width: 650px;
    margin:0 auto;
    padding: 0 16px;
-   
+  /* background-image :url('/img/weather-images2.gif');
+   background-repeat :repeat;
+   background-attachment:fixed;
+   background-size:cover;
+   font-size:12px;*/
    display:flex;
    flex-direction: column;
    min-height:100vh
@@ -14,6 +25,7 @@ body{
 .main-content{
 
     flex-grow:1;
+
 }
 footer{
 
@@ -37,15 +49,35 @@ h1{
 
 header a{
 
-    color: #888888;
+    color: #2b2525;
     margin-right:16px;
     text-decoration: none;
 
 }
 
 .portrait {
+    width : 300px;
+}
+.home-bg{
 
-    width : 500px;
+    background-image: url('/img/weather-images2.gif');
+    background-repeat :repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.about-bg{
+
+    background-image: url('/img/weather-images.jpeg');
+    background-repeat :repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.help-bg{
+    background-image: url('/img/weather-images.jpeg');
+    background-repeat :repeat;
+    background-attachment:fixed;
+    background-size:cover;
+
 }
 
 input{
@@ -57,9 +89,9 @@ input{
 button{
 
     cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
-    color: white;
+    border: 1px solid #0e0e0e;
+    background: #181717;
+    color: rgb(202, 187, 187);
     padding:8px;
 
 }
